@@ -1,0 +1,63 @@
+body{
+    background-color: cornflowerblue;
+}
+
+header, .container{
+    background-color: cornsilk;
+    border: 2px solid whitesmoke;
+    border-radius: 1em;
+}
+
+header {
+    font-size: xx-large;
+    font-family: Poppins;
+    margin: 0 30%;
+    text-align: center;
+}
+
+.container{
+    margin: 0 30%;
+    font-family: 'Libre Baskerville',sans-serif;
+    padding: 1em;
+    text-align: left;
+}
+
+.underline-input {
+    border :none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+#button {
+    background-color: blanchedalmond;
+    outline: none;
+    border: 3px solid rgb(34, 32, 32);
+    border-radius: 2em;
+    font-family: Poppins;
+    font-weight: lighter;
+    font-style: oblique;
+    font-size: x-large;
+    margin-left: 30%;
+}
+
+#button:hover{
+    background-color: cornflowerblue;
+}
+
+@media (max-width: 700px){
+    .container{
+        margin: 0 10%;
+    }
+    header{
+        margin: 0 10%;
+    }
+}
+
+@media (max-width: 900px){
+    .container{
+        margin: 0 15%;
+    }
+    header{
+        margin: 0 15%;
+    }
+}

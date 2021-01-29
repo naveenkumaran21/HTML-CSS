@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="nklogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>Forum</title>
+</head>
+<body>
+    <header>University Registration Forum</header><br>
+    <div class="container">
+        <p>Name: 
+            <input class='underline-input' type="text">
+        </p><br>
+        <p>Age: 
+            <input type="radio" name="age" value="13-23">13-23 <br>   &emsp;&emsp;&nbsp;
+            <input type="radio" name="age" value="24-34">24-34 <br>   &emsp;&emsp;&nbsp;
+            <input type="radio" name="age" value="35-45">35-45 <br>
+        </p><br>
+        <p>Gender: 
+            <input type="radio" name="gender" value="male">Male <br>   &emsp;&emsp;&emsp;&emsp;&nbsp;
+            <input type="radio" name="gender" value="female">Female <br>   &emsp;&emsp;&emsp;&emsp;&nbsp;
+                <input type="radio" name="gender" value="transgender">Transgender <br>
+            </p><br>
+            <p>Date-Of-Birth: 
+                <input type="date" name="dateofbirth">
+            </p><br>
+            <p>Email-ID: 
+                <input type="email" name="email" class="underline-input">
+            </p><br>
+            <p>Mobile: 
+                <input type="tel" class='underline-input' name="phone" placeholder="123-456-7890" pattern="[0-9]{3}- [0-9]{3}- [0-9]{4}" maxlength="10">
+            </p><br>
+            <p>Highest-Qualification: 
+                <select name="qualification">
+                    <option value="mid-school">Mid-School</option>
+                    <option value="high-school">High-School</option>
+                    <option value="pre-unversity">Pre University</option>
+                    <option value="graduate">Graduate</option>
+                </select>
+        </p>
+        <input type="submit" value="submit" id="button">
+    </div>
+</body>
+</html>
